@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 function Navbar() {
-   const [click, setClick] = useState(false)
-   const handleClick = () => setClick(!click)
-   const closeMobileMenu = () => setClick(false)
+   const [click, setClick] = useState(false);
+   const [button, setButton] = useState(true);
+
+   const handleClick = () => setClick(!click);
+   const closeMobileMenu = () => setClick(false);
+
+
+
    return (
       <div>
          <nav className="navbar">
@@ -32,6 +37,7 @@ function Navbar() {
                      </Link>
                   </li>
                </ul>
+
             </div>
          </nav>
       </div>
