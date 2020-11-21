@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 function Navbar() {
    const [click, setClick] = useState(false)
-
+   const handleClick = () => setClick(!click)
 
    return (
       <div>
@@ -12,7 +12,9 @@ function Navbar() {
                <Link to="/" className="navbar-logo">
                   Shady Saleh <i className="fab fa-typo3" />
                </Link>
-
+               <div className="menu-icon" onClick={handleClick}>
+                  <i className={click ? "fas fa-times" : "fas fa-bars"} />
+               </div>
 
             </div>
          </nav>
