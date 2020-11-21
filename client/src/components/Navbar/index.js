@@ -45,7 +45,7 @@ function Navbar() {
                      </Link>
                   </li>
                </ul>
-
+               {button && <Button buttonStyle="btn--outline">RESUME</Button>}
             </div>
          </nav>
       </div>
