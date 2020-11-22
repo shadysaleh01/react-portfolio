@@ -15,6 +15,12 @@ function Cards() {
                      label="Adventure"
                      path="/projects"
                   />
+                  <CardItem
+                     src="images/img-2.jpg"
+                     text="The second project information"
+                     label="Adventure"
+                     path="/projects"
+                  />
                </ul>
             </div>
          </div>
