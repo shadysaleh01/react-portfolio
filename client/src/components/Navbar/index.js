@@ -25,7 +25,7 @@ function Navbar() {
    window.addEventListener("resize", showButton);
 
    return (
-      <div>
+      <>
          <nav className="navbar">
             <div className="navbar-container">
                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -46,7 +46,7 @@ function Navbar() {
                      </Link>
                   </li>
                   <li className="nav-item">
-                     <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
+                     <Link to="/contacts" className="nav-links" onClick={closeMobileMenu}>
                         Contacts
                      </Link>
                   </li>
@@ -59,7 +59,7 @@ function Navbar() {
                {button && <Button buttonStyle="btn--outline">RESUME</Button>}
             </div>
          </nav>
-      </div>
+      </>
    )
 }
 
