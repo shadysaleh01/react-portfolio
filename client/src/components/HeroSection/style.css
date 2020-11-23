@@ -24,14 +24,24 @@ font-size: 100px;
 margin-top: -100px;
 }
 
-.hero-container  h3 {
+.hero-container  h2 {
 margin-top: 30px;
 color: #fff;
-/* font-size: 32px; */
+font-size: 32px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
    'Lucida Sans', Arial, sans-serif;
+   margin-bottom: 20px;
 }
 
+.firstA{
+   color:#E04343
+}
+.secondA{
+   color: #FFE800;
+}
+.saleh{
+   color: lightgray
+}
 .hero-btns {
 margin-top: 32px;
 }

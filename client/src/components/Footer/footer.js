@@ -42,7 +42,7 @@ function Footer() {
                   </Link>
                   <Link
                      class='social-icon-link github'
-                     to='/'
+                     to='https://github.com/shadysaleh01'
                      target='_blank'
                      aria-label='Github'
                   >
