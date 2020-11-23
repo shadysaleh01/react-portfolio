@@ -5,6 +5,8 @@ background: #fff;
 
 h1 {
 text-align: center;
+font-size: 60px;
+margin: 90px;
 }
 
 .cards__container {
