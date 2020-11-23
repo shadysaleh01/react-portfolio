@@ -1,59 +1,52 @@
-// Dependencies
-import React, { Component } from 'react';
-// Externals
-import Field from './Field';
-import Button from './Button';
+import React from 'react'
+import Form from 'react-bootstrap/Form'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 
+function Contact() {
+   return (
+      <div>
+         <Container fluid="sm">
+            <Row lg={12}>
+               <Col lg={6}>
+                  <div className="col-md-6 col-sm-12 text-light" id="contactTextArea">
+                     <h6>Have any questions, or offers on cooperation?</h6>
+                     <h6>Feel free to contact me!</h6>
+                     <br />
+                     <br />
+                     <h6>Saleh, Shady</h6>
+                     <br />
+                     <h6>shadysaleh01@gmail.com</h6>
+                     <br />
+                     <h6>+1(714)203-4290</h6>
+                  </div>
+               </Col>
+               <Col lg={6} sm={5}>
+                  <Form>
 
-class Form extends Component {
-   constructor(props) {
-      super(props);
-      this.state = {
-         name: '',
-         email: '',
-         message: '',
-      };
-      // To ensure 'this' when calling 'this.updateField' refers to Form and not Field, we do:
-      this.updateField = this.updateField.bind(this);
-   }
+                     <Form.Group controlId="formBasicName" lg={6}>
+                        <Form.Control placeholder="Name" />
+                     </Form.Group>
 
-   // Field could be 'name', 'email', or 'message'
-   // Value is whatever the user types into the input field.
-   updateField(field, value) {
-      this.setState({ [field]: value });
-   }
+                     <Form.Group controlId="formBasicEmail">
+                        <Form.Control placeholder="Email" type="email" />
+                        <Form.Text className="text-muted">
+                           We'll never share your email with anyone else.
+                     </Form.Text>
+                     </Form.Group>
 
-   render() {
-      return (
-         <div>
-            {/* Name field */}
-            <Field
-               label="Name"
-               onChange={(event) => this.updateField('name', event.target.value)}
-               value={this.state.name}
-            />
-            {/* Email field */}
-            <Field
-               label="Email"
-               onChange={(event) => this.updateField('email', event.target.value)}
-               value={this.state.email}
-            />
-            {/* Message textarea */}
-            <Field
-               label="Message"
-               onChange={(event) => this.updateField('message', event.target.value)}
-               /* This should be written like 'textarea' */
-               textarea={true}
-               value={this.state.message}
-            />
-            {/* Submit button */}
-            <Button
-               email="kgadams93@gmail.com"
-               formValues={this.state}
-            />
-         </div>
-      );
-   }
+                     <Button variant="warning" type="submit">
+                        Submit
+               </Button>
+
+                  </Form>
+               </Col>
+            </Row>
+         </Container>
+      </div>
+   )
 }
 
-export default Form;
+export default Contact;
