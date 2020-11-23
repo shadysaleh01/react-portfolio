@@ -12,7 +12,7 @@ function Cards() {
 
    return (
       <div className="cards">
-         <h1> Projects</h1>
+         <h1 className="text-warning"> Projects</h1>
          <div className='cards__container'>
             <div className='cards__wrapper'>
                <ul className='cards__items'>
@@ -25,10 +25,10 @@ function Cards() {
                   />
                   <CardItem
                      aos="fade-down-left"
-                     src="images/img-2.jpg"
-                     text="Application for a business owner to be able to view and manage the departments, roles, and employees in the company so that they can organize and plan the business."
-                     label="Employee Tracker"
-                     path="https://drive.google.com/file/d/1Pwn3fYSZNIo4YPHkMn_99IPh5XitLi9P/preview"
+                     src="images/trivia.jpg"
+                     text="Learn Squad application is a competitive clan based trivia game which consists of 6 categories of questions. Each category displays 10 questions with 60 seconds time limit to answer. users can choose and answer to gain the cash along with marking the territory based on the acquired cash."
+                     label="Learn-Smart"
+                     path="https://blooming-everglades-09738.herokuapp.com"
                   />
                </ul>
                <ul className="cards__items" >
@@ -42,22 +42,22 @@ function Cards() {
                   <CardItem
                      aos="fade-bottom"
                      src="images/employee-engin.PNG"
-                     text="A software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user."
+                     text="A software engineering team generator command line application. The application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user."
                      label="Template Engine"
                      path="https://shadysaleh01.github.io/Team-Profile-Generator/"
                   />
                   <CardItem
                      aos="fade-left"
-                     src="images/trivia.jpg"
-                     text="Learn Squad application is a competitive clan based trivia game which consists of 6 categories of questions. Each category displays 10 questions with 60 seconds time limit to answer. users can choose and answer to gain the cash along with marking the territory based on the acquired cash."
-                     label="Learn-Smart"
-                     path="https://blooming-everglades-09738.herokuapp.com"
+                     src="images/burger.png"
+                     text="Restaurant app that lets users input the burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the it on the list. Each burger also has an Eat Me! button. When the user clicks it, the burger will remove. This app will store every burger in a database, whether eaten or not."
+                     label="Eat-Da-Burger!"
+                     path="https://eat-da-burger2.herokuapp.com/"
                   />
                </ul>
                <ul className='cards__items' >
                   <CardItem
                      aos="fade-up-right"
-                     src="images/burger.png"
+                     src="images/img-8.jpg"
                      text="Created a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the top list of the page waiting to be eaten. Each burger in the waiting area also has an Eat Me! button. When the user clicks it, the burger will move to the bottom list of the page. This app will store every burger in a database, whether eaten or not."
                      label="Eat-Da-Burger!"
                      path="https://eat-da-burger2.herokuapp.com/"

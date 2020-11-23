@@ -1,0 +1,15 @@
+.Row {
+   padding: 15% 0;
+   /* margin: 19% 0; */
+   margin: auto;
+}
+
+.Col {
+   margin-bottom: 40px;
+}
+
+.contact {
+background: url('/images/img-home.jpg') center center/cover no-repeat fixed;
+font-size: 20px;
+}
+
