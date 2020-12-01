@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Button } from '../Button';
 import "./style.css"
+// import ScrollspyNav from 'react-scrollspy-nav';
 
 function Navbar() {
    const [click, setClick] = useState(false);
@@ -41,12 +42,12 @@ function Navbar() {
                      </Link>
                   </li>
                   <li className="nav-item">
-                     <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
+                     <Link href="#projects" className="nav-links" onClick={closeMobileMenu}>
                         Projects
                      </Link>
                   </li>
                   <li className="nav-item">
-                     <Link to="/contacts" className="nav-links" onClick={closeMobileMenu}>
+                     <Link to="#contacts" className="nav-links" onClick={closeMobileMenu}>
                         Contacts
                      </Link>
                   </li>

@@ -8,7 +8,7 @@ import './Form.css'
 
 function Contact() {
    return (
-      <div className="contact">
+      <div className="contact" id="contacts">
          <video src="/videos/video-2.mp4" autoPlay loop muted />
          <Container fluid="md">
 
@@ -41,7 +41,7 @@ function Contact() {
                      </Form.Group>
 
                      <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Control as="textarea" placeholder="Message" rows={3} />
                      </Form.Group>
 
                      <Button variant="warning" type="submit">
