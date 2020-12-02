@@ -27,6 +27,7 @@
     "mongoose": "^5.3.16",
     "react-bootstrap-validation": "^0.1.11",
     "react-router-dom": "^5.2.0",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "react-scrollspy-nav": "^1.2.4"
   }
 }
