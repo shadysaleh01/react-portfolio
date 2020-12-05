@@ -1,5 +1,6 @@
 import React, { Component, useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+// import { Router } from "react-router-dom"
+// import { Link } from 'react-router-dom'
 import { Button } from '../Button';
 import "./style.css"
 import ScrollspyNav from 'react-scrollspy-nav';
@@ -29,53 +30,68 @@ function Navbar() {
 
 
    return (
-      <>
+      <div>
          <ScrollspyNav
             scrollTargetIds={["about", "projects", "contacts"]}
-            offset={100}
+            offset={-30}
             activeNavClass="is-active"
             scrollDuration="1000"
+            headerBackground="true"
          >
             <nav className="navbar">
                <div className="navbar-container">
-                  <Link href="/" className="navbar-logo" onClick={closeMobileMenu}>
+                  <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
                      Shady Saleh <i className="fab fa-typo3" />
-                  </Link>
+                  </a>
                   <div className="menu-icon" onClick={handleClick}>
                      <i className={click ? "fas fa-times" : "fas fa-bars"} />
                   </div>
                   <ul className={click ? "nav-menu active" : "nav-menu"}>
                      <li className="nav-item">
-                        <Link href="/" className="nav-links" onClick={closeMobileMenu}>
+                        <a href="/" className="nav-links" onClick={closeMobileMenu}>
                            Home
-                     </Link>
+                     </a>
                      </li>
                      <li className="nav-item">
-                        <Link href="#about" className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#about" className="nav-links" onClick={closeMobileMenu}>
                            About
-                     </Link>
+                     </a>
                      </li>
                      <li className="nav-item">
-                        <Link href="#projects" className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#projects" className="nav-links" onClick={closeMobileMenu}>
                            Projects
-                     </Link>
+                     </a>
                      </li>
                      <li className="nav-item">
-                        <Link to="#contacts" className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#contacts" className="nav-links" onClick={closeMobileMenu}>
                            Contacts
-                     </Link>
+                     </a>
                      </li>
-                     <li>
-                        <Link to="/resume" className="nav-links-mobile" onClick={closeMobileMenu}>
+                     <li >
+                        <a href="./resume/MyResume.pdf" className="nav-links-mobile" onClick={closeMobileMenu}>
                            Resume
-                     </Link>
+                     </a>
                      </li>
                   </ul>
-                  {button && <Button buttonStyle="btn--outline">RESUME</Button>}
+                  {button && <Button href="./resume/MyResume.pdf" target='_blank' buttonStyle="btn--outline" >RESUME</Button>}
                </div>
             </nav>
+            {/* <Switch>
+               <Route path="/about">
+                  <About />
+               </Route>
+               <Route path="/projects">
+                  <Projects />
+               </Route>
+               <Route path="/contacts">
+                  <Contacts />
+               </Route>
+               <Route path="/resume">
+                  <Resume />
+               </Route>
+            </Switch> */}
          </ScrollspyNav>
-      </>
+      </div>
    )
 }
 

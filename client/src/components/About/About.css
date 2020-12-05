@@ -1,4 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,700&family=Chilanka&family=Cuprum:wght@700&display=swap');
+
 img {
-   height: 200px;
-   width: 200px;
+   max-height: 300px;
+   max-width: 360px;
+   margin: auto;
 }
+.img-square-wrapper {
+   margin: auto;
+}
+
+#card {
+   /* background-color: #242424; */
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   max-width: 900px;
+   width: 70%;
+   margin: 0 auto;
+   border: none;
+}
+h3 {
+font-family: 'Cuprum', sans-serif;;
+}
+
+.container {
+   background-color: white;
+   min-width: 100%;
+   padding-top: 20%;
+   padding-bottom: 20%;
+}
+
+ .card-body {
+    margin: auto;
+ }
+ @media only screen and (max-width: 550px) {
+   #card {
+      /* background-color: #242424; */
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      /* max-width: 90%; */
+      width: 95%;
+      margin: 0 auto;
+      border: none;
+   }
+   img {
+      max-height: 250px;
+      max-width: 250px;
+      margin: auto;
+   }
+ }
