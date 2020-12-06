@@ -1,7 +1,8 @@
 import React, { Component, useState, useEffect } from 'react'
 // import { Router } from "react-router-dom"
 // import { Link } from 'react-router-dom'
-import { Button } from '../Button';
+import Button from "react-bootstrap/Button"
+// import { Button } from '../Button';
 import "./style.css"
 import ScrollspyNav from 'react-scrollspy-nav';
 
@@ -33,7 +34,7 @@ function Navbar() {
       <div>
          <ScrollspyNav
             scrollTargetIds={["about", "projects", "contacts"]}
-            offset={-30}
+            offset={120}
             activeNavClass="is-active"
             scrollDuration="1000"
             headerBackground="true"
@@ -73,7 +74,7 @@ function Navbar() {
                      </a>
                      </li>
                   </ul>
-                  {button && <Button href="./resume/MyResume.pdf" target='_blank' buttonStyle="btn--outline" >RESUME</Button>}
+                  {button && <a href="./resume/MyResume.pdf" target='_blank'><Button variant="outline-warning" >RESUME</Button></a>}
                </div>
             </nav>
             {/* <Switch>

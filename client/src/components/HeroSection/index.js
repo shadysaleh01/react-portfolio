@@ -14,10 +14,10 @@ function HeroSection() {
       <div className="hero-container">
          <video src="/videos/video-1.mp4" autoPlay loop muted />
          <h1 className="animated fadeInDown" data-aos="zoom-in-down">
-            Hi, I'm SH<span className="firstA">A</span>DY
-            <span className="saleh"> S<span className="secondA">A</span>LEH</span>
+            Hi, I'm <span className="firstA">S</span>HADY
+            <span className="saleh"> <span className="secondA">S</span>ALEH</span>
          </h1>
-         <h2 className="animated fadeInUp delay-05s" data-aos="zoom-out-down">I Am Web-Developer</h2>
+         <h2 className="animated fadeInUp delay-05s" data-aos="zoom-out-down">I'm a Web-Developer</h2>
          <div data-aos="flip-right">
             <Button className="btns"
                buttonStyle="btn--primary"

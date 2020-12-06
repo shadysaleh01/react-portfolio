@@ -30,9 +30,22 @@ function Cards() {
                      aos="fade-down-left"
                      src="images/trivia.jpg"
                      text="Learn Squad application is a competitive clan based trivia game which consists of 6 categories of questions. Each category displays 10 questions with 60 seconds time limit to answer. users can choose and answer to gain the cash along with marking the territory based on the acquired cash."
+                     icon1="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
+                     icon2="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                     icon3="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                     icon4="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                     icon5="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                     icon6="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
+                     icon7="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+                     icon8="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                     icon9="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
+                     icon10="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"
+                     icon11="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+                     icon12="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png"
+                     icon13="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"
                      label="Learn-Smart"
-                     live="https://blooming-everglades-09738.herokuapp.com"
-                     github=""
+                     live="https://learn-squad.herokuapp.com/"
+                     github="https://github.com/shadysaleh01/Learn-Smart"
                   />
                </ul>
                <ul className="cards__items" >
@@ -42,7 +55,7 @@ function Cards() {
                      text="A simple calender app for scheduling work day important events to a daily planner SO that you can manage your time effectively"
                      label="Work Day Scheduler"
                      live="https://shadysaleh01.github.io/Work-Day-Scheduler/"
-                     github=""
+                     github="https://github.com/shadysaleh01/Work-Day-Scheduler"
                   />
                   <CardItem
                      aos="fade-bottom"
@@ -50,15 +63,25 @@ function Cards() {
                      text="A software engineering team generator command line application. The application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user."
                      label="Template Engine"
                      live="https://shadysaleh01.github.io/Team-Profile-Generator/"
-                     github=""
+                     github="https://github.com/shadysaleh01/Team-Profile-Generator"
                   />
                   <CardItem
                      aos="fade-left"
                      src="images/burger.png"
                      text="Restaurant app that lets users input the burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the it on the list. Each burger also has an Eat Me! button. When the user clicks it, the burger will remove. This app will store every burger in a database, whether eaten or not."
+                     icon1="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
+                     icon2="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                     icon3="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                     icon4="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                     icon5="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                     icon6="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
+                     icon7="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+                     icon8="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                     icon9="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
+                     icon10="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"
                      label="Eat-Da-Burger!"
                      live="https://eat-da-burger2.herokuapp.com/"
-                     github=""
+                     github="https://github.com/shadysaleh01/Burger"
                   />
                </ul>
                <ul className='cards__items' >
@@ -73,10 +96,10 @@ function Cards() {
                   <CardItem
                      aos="fade-up-left"
                      src="images/img-4.jpg"
-                     text="Application for a business owner to be able to view and manage the departments, roles, and employees in the company so that they can organize and plan the business."
-                     label="Employee Tracker"
-                     github="" live="https://drive.google.com/file/d/1P
-                     wn3fYSZNIo4YPHkMn_99IPh5XitLi9P/preview"
+                     text="Application to view create and track daily workouts. Also to log multiple exercises in a workout on a given day. It should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, It should be able to track the distance traveled."
+                     label="Workout Tracker"
+                     github="https://github.com/shadysaleh01/workout-tracker"
+                     live="https://frozen-river-75779.herokuapp.com/?id=5fa32ba228d78e0017e1f027"
                   />
                </ul>
             </div>

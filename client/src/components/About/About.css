@@ -27,11 +27,20 @@ font-family: 'Cuprum', sans-serif;;
    background-color: white;
    min-width: 100%;
    padding-top: 20%;
-   padding-bottom: 20%;
+   padding-bottom: 1%;
 }
 
  .card-body {
     margin: auto;
+ }
+
+ .divSkills {
+ padding-bottom: 160px;
+ }
+ .skills {
+    width: 3rem;
+    margin-left: 20px;
+    margin-bottom: 5px;
  }
  @media only screen and (max-width: 550px) {
    #card {
