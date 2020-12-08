@@ -69,12 +69,13 @@ function Navbar() {
                      </a>
                      </li>
                      <li >
-                        <a href="./resume/MyResume.pdf" className="nav-links-mobile" onClick={closeMobileMenu}>
+                        <a href="http://localhost:3000/resume/MyResume.pdf" target='_blank' className="nav-links-mobile" onClick={closeMobileMenu}>
                            Resume
                      </a>
                      </li>
                   </ul>
-                  {button && <a href="./resume/MyResume.pdf" target='_blank'><Button variant="outline-warning" >RESUME</Button></a>}
+                  <a href="http://localhost:3000/resume/MyResume.pdf" target='_blank'>RESUME</a>
+                  {/* {button && <a href="./resume/MyResume.pdf" target='_blank'><Button variant="outline-warning" >RESUME</Button></a>} */}
                </div>
             </nav>
             {/* <Switch>
