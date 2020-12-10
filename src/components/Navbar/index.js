@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button"
 // import { Button } from '../Button';
 import "./style.css"
 import ScrollspyNav from 'react-scrollspy-nav';
+import Pdf from "../../resume/MyResume.pdf"
 
 function Navbar() {
    const [click, setClick] = useState(false);
@@ -69,13 +70,13 @@ function Navbar() {
                      </a>
                      </li>
                      <li >
-                        <a href="http://localhost:3000/resume/MyResume.pdf" target='_blank' className="nav-links-mobile" onClick={closeMobileMenu}>
+                        <a href="/resume/MyResume.pdf" target='_blank' className="nav-links-mobile" onClick={closeMobileMenu}>
                            Resume
                      </a>
                      </li>
                   </ul>
-                  <a href="http://localhost:3000/resume/MyResume.pdf" target='_blank'>RESUME</a>
-                  {/* {button && <a href="./resume/MyResume.pdf" target='_blank'><Button variant="outline-warning" >RESUME</Button></a>} */}
+                  {/* {button && <a href="/resume/MyResume.pdf" target='_blank'><Button variant="outline-warning" >RESUME</Button></a>} */}
+                  <a href={Pdf} target="_blank">RESUME</a>
                </div>
             </nav>
             {/* <Switch>

@@ -146,7 +146,7 @@ line-height: 24px;
 
 @media only screen and (max-width: 1024px) {
 .cards__item {
-   margin: auto;
+   /* margin: auto; */
    margin-bottom: 4rem;
    width: 70%;
 }

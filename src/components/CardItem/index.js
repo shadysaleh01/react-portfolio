@@ -23,7 +23,7 @@ function CardItem(props) {
                <div className='cards__item__info'>
                   <div id="links">
                      <a href={props.live} target='_blank' ><Button variant="success">DEMO</Button></a>
-                     <a href={props.github} target='_blank'
+                     <a href={props.github} target='blank'
                         class='social-icon-link github'
                         aria-label='Github'
                      >
@@ -32,22 +32,22 @@ function CardItem(props) {
                   </div>
                   <h5 className='cards__item__text'>{props.text}</h5>
                   <h6>Technologies:</h6>
-                  <img className="icons" src={props.icon1} />
-                  <img className="icons" src={props.icon2} />
-                  <img className="icons" src={props.icon3} />
-                  <img className="icons" src={props.icon4} />
-                  <img className="icons" src={props.icon5} />
-                  <img className="icons" src={props.icon6} />
-                  <img className="icons" src={props.icon7} />
-                  <img className="icons" src={props.icon8} />
-                  <img className="icons" src={props.icon9} />
-                  <img className="icons" src={props.icon10} />
-                  <img className="icons" src={props.icon11} />
-                  <img className="icons" src={props.icon12} />
-                  <img className="icons" src={props.icon13} />
-                  <img className="icons" src={props.icon14} />
-                  <img className="icons" src={props.icon15} />
-                  <img className="icons" src={props.icon16} />
+                  <img className="icons" alt={props.alt1} src={props.icon1} />
+                  <img className="icons" alt={props.alt2} src={props.icon2} />
+                  <img className="icons" alt={props.alt3} src={props.icon3} />
+                  <img className="icons" alt={props.alt4} src={props.icon4} />
+                  <img className="icons" alt={props.alt5} src={props.icon5} />
+                  <img className="icons" alt={props.alt6} src={props.icon6} />
+                  <img className="icons" alt={props.alt7} src={props.icon7} />
+                  <img className="icons" alt={props.alt8} src={props.icon8} />
+                  <img className="icons" alt={props.alt9} src={props.icon9} />
+                  <img className="icons" alt={props.alt10} src={props.icon10} />
+                  <img className="icons" alt={props.alt11} src={props.icon11} />
+                  <img className="icons" alt={props.alt12} src={props.icon12} />
+                  <img className="icons" alt={props.alt13} src={props.icon13} />
+                  <img className="icons" alt={props.alt14} src={props.icon14} />
+                  <img className="icons" alt={props.alt15} src={props.icon15} />
+                  <img className="icons" alt={props.alt16} src={props.icon16} />
                </div>
             </div>
          </li>
