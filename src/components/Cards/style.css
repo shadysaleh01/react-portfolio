@@ -2,7 +2,7 @@
 
 .cards {
    background: #fff;
-   padding-top: 20%;
+   padding-top: 3%;
 
    padding-bottom: 9rem;
 }
@@ -16,7 +16,7 @@ font-family: 'Cuprum', sans-serif;
 }
 
 .bgimg {
-   background: url("/images/coffee.jpg");
+   background: url("../images/coffee.jpg");
    min-height: 200px;
    background-attachment: fixed;
    background-position: center;
@@ -144,11 +144,11 @@ line-height: 24px;
 }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
 .cards__item {
-   /* margin: auto; */
+   margin: auto;
    margin-bottom: 4rem;
-   width: 70%;
+   width: 80%;
 }
 }
 @media screen and (max-width: 640px) {

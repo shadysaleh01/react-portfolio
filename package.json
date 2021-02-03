@@ -1,9 +1,8 @@
 {
   "name": "mern",
   "version": "0.1.0",
-  "homepage": "http://shadysaleh01.github.io/react-protfolio",
+  "homepage": "/",
   "private": true,
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.18.0",

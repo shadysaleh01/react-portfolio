@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Aos from "aos";
 import "aos/dist/aos.css"
 import "./About.css"
+import Image from "../images/portfolio.jpg"
 
 function About() {
    useEffect(() => {
@@ -15,7 +16,7 @@ function About() {
             data-aos-duration="3000" >
             <div class="card-horizontal shadow-lg">
                <div class="img-square-wrapper col-lg-7">
-                  <img class="img" src="../images/portfolio.jpg" alt="Card image cap" />
+                  <img class="img" src={Image} alt="Card image cap" />
                </div>
                <div class="card-body col-lg-10">
                   <h3 class="card-title">ABOUT ME</h3>

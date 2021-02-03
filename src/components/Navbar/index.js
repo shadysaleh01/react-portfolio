@@ -33,15 +33,10 @@ function Navbar() {
 
    return (
       <div>
-         <ScrollspyNav
-            scrollTargetIds={["about", "projects", "contacts"]}
-            offset={120}
-            activeNavClass="is-active"
-            scrollDuration="1000"
-            headerBackground="true"
-         >
+        
             <nav className="navbar">
                <div className="navbar-container">
+                  
                   <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
                      Shady Saleh <i className="fab fa-typo3" />
                   </a>
@@ -49,8 +44,15 @@ function Navbar() {
                      <i className={click ? "fas fa-times" : "fas fa-bars"} />
                   </div>
                   <ul className={click ? "nav-menu active" : "nav-menu"}>
+                     <ScrollspyNav
+                        scrollTargetIds={["home","about", "projects", "contacts"]}
+                        // offset={120}
+                        // activeNavClass="is-active"
+                        // scrollDuration="1000"
+                        // headerBackground="true"
+                     >
                      <li className="nav-item">
-                        <a href="/" className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#home" className="nav-links" onClick={closeMobileMenu}>
                            Home
                      </a>
                      </li>
@@ -69,14 +71,16 @@ function Navbar() {
                            Contacts
                      </a>
                      </li>
+                     </ScrollspyNav>
+
                      <li >
-                        <a href="/resume/MyResume.pdf" target='_blank' className="nav-links-mobile" onClick={closeMobileMenu}>
+                        <a href={Pdf} target='_blank' className="nav-links-mobile" onClick={closeMobileMenu}>
                            Resume
                      </a>
                      </li>
                   </ul>
-                  {/* {button && <a href="/resume/MyResume.pdf" target='_blank'><Button variant="outline-warning" >RESUME</Button></a>} */}
-                  <a href={Pdf} target="_blank">RESUME</a>
+                  {button && <a href={Pdf} target='_blank'><Button variant="outline-warning" >RESUME</Button></a>}
+                  {/* <a href= target="_blank">RESUME</a> */}
                </div>
             </nav>
             {/* <Switch>
@@ -93,7 +97,6 @@ function Navbar() {
                   <Resume />
                </Route>
             </Switch> */}
-         </ScrollspyNav>
       </div>
    )
 }

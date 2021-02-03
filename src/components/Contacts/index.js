@@ -23,6 +23,8 @@ export default class Contact extends React.Component {
             <Container fluid="md">
 
                <Row lg={12} className="Row">
+               <h2 className="text-warning" id="contact">Contact</h2>
+
                   <Col lg={6} className="Col">
                      <div className=" col-sm-12 text-light" id="contactTextArea">
                         <h5>Have any questions, or offers on cooperation?</h5>

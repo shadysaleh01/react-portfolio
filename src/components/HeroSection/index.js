@@ -11,7 +11,7 @@ function HeroSection() {
       Aos.init({ duration: 3000 });
    }, [])
    return (
-      <div className="hero-container">
+      <div className="hero-container" id="home">
          <video src="/videos/video-1.mp4" autoPlay loop muted />
          <h1 className="animated fadeInDown" data-aos="zoom-in-down">
             Hi, I'm <span className="firstA">S</span>HADY
