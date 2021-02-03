@@ -31,7 +31,16 @@ function Cards() {
                      text="Face recognition that recognize facial expression and depending on the Users facial expressions a message will be rendered suitable to the current expression. Mouth detection, which detects the movements of the upper and lower lips. Which will be ultimatly interpreted and give visual indications, if the user is talking or silent."
                      label="Face & Mouth Expression Detection"
                      live="https://moelak.github.io/face-and-mouth-detection/"
-                     github=""
+                     icon1="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt1="technologies"
+                     icon2="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt2="technologies"
+                     icon3="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt3="technologies"
+                     icon4="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt4="technologies"
+                     icon5="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt8="technologies"
+                     icon6="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt9="technologies"
+                     icon7="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt10="technologies"
+                     icon8="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" alt11="technologies"
+                     icon9="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png" alt13="technologies"
+                     github="https://github.com/shadysaleh01/face-and-mouth-detection"
                   />
                   <CardItem
                      aos="fade-down-left"
