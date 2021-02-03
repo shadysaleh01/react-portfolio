@@ -35,11 +35,11 @@ function Cards() {
                      icon2="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt2="technologies"
                      icon3="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt3="technologies"
                      icon4="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt4="technologies"
-                     icon5="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt8="technologies"
-                     icon6="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt9="technologies"
-                     icon7="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt10="technologies"
-                     icon8="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" alt11="technologies"
-                     icon9="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png" alt13="technologies"
+                     icon5="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt5="technologies"
+                     icon6="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt6="technologies"
+                     icon7="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt7="technologies"
+                     icon8="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" alt8="technologies"
+                     icon9="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png" alt9="technologies"
                      github="https://github.com/shadysaleh01/face-and-mouth-detection"
                   />
                   <CardItem
@@ -84,7 +84,7 @@ function Cards() {
                   <CardItem
                      aos="fade-left"
                      src={Burger}
-                     text="Restaurant app that lets users input the burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the it on the list. Each burger also has an Eat Me! button. When the user clicks it, the burger will remove. This app will store every burger in a database, whether eaten or not."
+                     text=" A restaurant app that lets users input burgers they'd like to eat. The app will display the burger on the waiting list to be eaten with an Eat Me! Button next to it. By clicking it, the burger will move to the Eaten list with a Remove Button next to it. This app will store every burger in a database, whether eaten or not."
                      icon1="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
                      icon2="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                      icon3="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
