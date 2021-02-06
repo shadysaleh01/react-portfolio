@@ -8,9 +8,9 @@ import video from "../../videos/video-1.mp4"
 
 
 function HeroSection() {
-   useEffect(() => {
-      Aos.init({ duration: 3000 });
-   }, [])
+   // useEffect(() => {
+   //    Aos.init({ duration: 3000 });
+   // }, [])
    return (
       <div className="hero-container" id="home">
          <video src={video} autoPlay loop muted />
