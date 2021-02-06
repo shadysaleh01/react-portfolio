@@ -79,7 +79,7 @@ function Navbar() {
                      </a>
                      </li>
                   </ul>
-                  {button && <a href={Pdf} target='_blank'><Button variant="outline-warning" >RESUME</Button></a>}
+                  {button && <a href={Pdf} target='_blank'><Button className="resumeBtn" variant="outline-warning" >RESUME</Button></a>}
                   {/* <a href= target="_blank">RESUME</a> */}
                </div>
             </nav>
