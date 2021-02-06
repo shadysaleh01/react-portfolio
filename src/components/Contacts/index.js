@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import video2 from "../../videos/video-2.mp4"
 import './Form.css'
 
 export default class Contact extends React.Component {
@@ -19,7 +20,7 @@ export default class Contact extends React.Component {
 
       return (
          <div className="contact" id="contacts">
-            <video src="/videos/video-2.mp4" autoPlay loop muted />
+            {/* <video src={video2} autoPlay loop muted /> */}
             <Container fluid="md">
 
                <Row lg={12} className="Row">
