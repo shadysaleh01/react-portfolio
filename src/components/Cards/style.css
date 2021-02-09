@@ -133,23 +133,23 @@ line-height: 24px;
    transform: scale(1.1);
 }
 @media only screen and (min-width: 1200px) {
-.content__blog__container {
-   width: 84%;
-}
+   .content__blog__container {
+      width: 84%;
+   }
 }
 
 @media only screen and (min-width: 1024px) {
-.cards__items {
-   display: flex;
-}
+   .cards__items {
+      display: flex;
+   }
 }
 
 @media only screen and (max-width: 1023px) {
-.cards__item {
-   margin: auto;
-   margin-bottom: 4rem;
-   width: 80%;
-}
+   .cards__item {
+      margin: auto;
+      margin-bottom: 4rem;
+      width: 80%;
+   }
 }
 @media screen and (max-width: 640px) {
    .cards__item {

@@ -37,7 +37,7 @@ function Navbar() {
             <nav className="navbar">
                <div className="navbar-container">
                   
-                  <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
+                  <a className="navbar-logo" onClick={closeMobileMenu}>
                      Shady Saleh <i className="fab fa-typo3" />
                   </a>
                   <div className="menu-icon" onClick={handleClick}>

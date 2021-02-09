@@ -4,7 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./style.css";
 import "../../App.css"
-import video from "../../videos/video-1.mp4"
+// import video from "../../videos/video-1.mp4"
 
 
 function HeroSection() {
@@ -13,7 +13,7 @@ function HeroSection() {
    // }, [])
    return (
       <div className="hero-container" id="home">
-         <video src={video} autoPlay loop muted />
+         {/* <video src={video} autoPlay loop muted /> */}
          <h1 className="animated fadeInDown" data-aos="zoom-in-down">
             Hi, I'm <span className="firstA">S</span>HADY
             <span className="saleh"> <span className="secondA">S</span>ALEH</span>
