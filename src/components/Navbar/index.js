@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button"
 // import { Button } from '../Button';
 import "./style.css"
 import ScrollspyNav from 'react-scrollspy-nav';
-import Pdf from "../../resume/Resume-EmployerCompetitive.pdf"
+import Pdf from "../../resume/ShadySaleh-Resume.pdf"
 
 function Navbar() {
    const [click, setClick] = useState(false);
