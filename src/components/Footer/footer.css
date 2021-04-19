@@ -22,7 +22,7 @@
  }
 
  /* logo link */
- /* .social-logo {
+ .social-logo {
    color: #fff;
    justify-self: start;
    margin-left: 20px;
@@ -37,7 +37,7 @@
  .website-rights {
    color: #fff;
    margin-bottom: 16px;
- } */
+ }
 
 /* div that holds the social media icons */
  .social-icons {

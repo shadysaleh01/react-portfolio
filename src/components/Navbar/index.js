@@ -3,7 +3,7 @@ import React, { Component, useState, useEffect } from 'react'
 // import { Link } from 'react-router-dom'
 import Button from "react-bootstrap/Button"
 // import { Button } from '../Button';
-import "./style.css"
+import "./Navbar.css"
 import ScrollspyNav from 'react-scrollspy-nav';
 import Pdf from "../../resume/ShadySaleh-Resume.pdf"
 

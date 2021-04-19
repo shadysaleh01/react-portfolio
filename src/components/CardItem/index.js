@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 // import { Button } from '../Button';
 // import home from '../../pages/Home'
-import "./style.css"
+import "./CardItem.css"
 import Button from 'react-bootstrap/Button'
 
 

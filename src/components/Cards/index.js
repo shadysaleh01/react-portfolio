@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import CardItem from '../CardItem';
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./style.css";
+import "./Cards.css";
 import Trivia from "../images/trivia.jpg"
 import Scheduler from "../images/scheduler.png"
 import Employee from "../images/employee-engin.PNG"
